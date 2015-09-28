@@ -1,6 +1,11 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.pyc
+.DS_STORE
+.doit.db.db
+_site/
+
 
 # C extensions
 *.so
@@ -9,6 +14,7 @@ __pycache__/
 .Python
 env/
 build/
+cache/
 develop-eggs/
 dist/
 downloads/
@@ -16,6 +22,7 @@ eggs/
 .eggs/
 lib/
 lib64/
+output/
 parts/
 sdist/
 var/
